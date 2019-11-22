@@ -1,3 +1,29 @@
+## `jaffle_shop` a la dtspec
+
+[dtspec](https://github.com/inside-track/dtspec) is a framework for writing data transformation
+specifications (aka tests).  This repo is a public proof-of-concept demonstrating how it
+can be applied to dbt projects.
+
+To get started follow all of the regular setup steps for `jaffle_shop` detailed in the
+following sections.  Then, install the dtspec requirements via
+
+```bash
+pip install sqlalchemy dtspec
+```
+
+The testing specification for `jaffle_shop` are written in a yaml file located
+at [dtspec/spec.yml](dtspec/spec.yml).  To run these tests,
+
+```bash
+python dtspec/test.py
+```
+
+For more information about dtspec, see the main [dtspec](https://github.com/inside-track/dtspec)
+repo and the [discourse topic](tbd).
+
+Test all the things!
+
+
 ## dbt models for `jaffle_shop`
 
 `jaffle_shop` is a fictional ecommerce store. This dbt project transforms raw
