@@ -19,7 +19,7 @@ python dtspec/test.py
 ```
 
 For more information about dtspec, see the main [dtspec](https://github.com/inside-track/dtspec)
-repo and the [discourse topic](tbd).
+repo and the [discourse topic](https://discourse.getdbt.com/t/testing-data-transformations/733).
 
 Test all the things!
 
